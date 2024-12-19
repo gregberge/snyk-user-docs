@@ -1,4 +1,5 @@
 ---
+hidden: true
 cover: .gitbook/assets/Snyk General Banner.webp
 coverY: 0
 ---
@@ -9,13 +10,13 @@ The most recent updates include significant changes to the user docs, such as fe
 
 ## October 2024
 
-### **Snyk API**&#x20;
+### **Snyk API**
 
 * Links to APIs have been updated throughout the Snyk User Docs site.
 * The [API](snyk-api/) pages have been extensively updated to reflect changes in how APIs are published.
 * The [API Authentication](snyk-api/rest-api/authentication-for-api/) pages have been updated to include when to use a personal token and when to use a service account, and to improve the flow of information.
 
-### &#x20;**Snyk AppRisk**&#x20;
+### **Snyk AppRisk**
 
 * [Risk factors on assets](manage-assets/#inventory-overview) is now in [EA](getting-started/snyk-release-process.md#early-access) for Snyk AppRisk Pro customers.
 * [Asset inventory components](manage-assets/assets-inventory-components.md#clusters) has been updated to include details on clusters.
@@ -39,23 +40,23 @@ The most recent updates include significant changes to the user docs, such as fe
 
 ### **Other updates**
 
-* [Getting started](getting-started/) has been updated to centralize content related to everything you need to know before using Snyk.&#x20;
+* [Getting started](getting-started/) has been updated to centralize content related to everything you need to know before using Snyk.
 * The [Snyk Jumpstart Services Description](working-with-snyk/snyk-terms-of-support-and-services-glossary/snyk-jumpstart-services-description.md) and [Customer Prerequisite](working-with-snyk/snyk-terms-of-support-and-services-glossary/snyk-jumpstart-customer-prerequisites.md)s have been updated for AppRisk Pro.
 * Scanning methods have been added for the [Dart and Flutter](supported-languages-package-managers-and-frameworks/dart-and-flutter.md) languages.
 
 ## September 2024
 
-### **Snyk API**&#x20;
+### **Snyk API**
 
 * Most links to APIs have been updated on the docs site.
 * Additional entries were made on the [API docs index page](snyk-api/api-endpoints-index-and-tips/).
 * [Regional URLs for APIs](snyk-api/rest-api/about-the-rest-api.md#api-url) were updated.
 
-### &#x20;**Snyk AppRisk**&#x20;
+### **Snyk AppRisk**
 
-* A prerequisites section has been added to the Group level of [GitHub integration](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/github-enterprise.md#prerequisites), and more details about the [Pull personal repositories](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/github-enterprise.md#github-integrate-using-snyk-apprisk) option have been added to the same documentation page.&#x20;
+* A prerequisites section has been added to the Group level of [GitHub integration](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/github-enterprise.md#prerequisites), and more details about the [Pull personal repositories](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/github-enterprise.md#github-integrate-using-snyk-apprisk) option have been added to the same documentation page.
 * The [Set up Insights for Snyk AppRisk ](manage-risk/prioritize-issues-for-fixing/set-up-insights-for-snyk-apprisk/)section was updated to emphasize the risk factors availability for each integration option.
-* The [Snyk Runtime Sensor](manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/snyk-runtime-sensor.md) has been updated to reflect the importance of adopting it to achieve the most effective integration and to access its continuously expanded set of features.&#x20;
+* The [Snyk Runtime Sensor](manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/snyk-runtime-sensor.md) has been updated to reflect the importance of adopting it to achieve the most effective integration and to access its continuously expanded set of features.
 
 ### Snyk Broker
 
@@ -67,7 +68,7 @@ The Universal Broker feature is now available in Early Access. The Universal Bro
 * [Authentication](snyk-cli/authenticate-to-use-the-cli.md) has been updated.
 * Configuration has been updated: Environment variables for Snyk CLI, [`snyk config`](snyk-cli/commands/config.md) help, [`snyk config environment`](snyk-cli/commands/config-environment.md) help.
 
-### **Snyk  Integrations**
+### **Snyk Integrations**
 
 The Snowflake Data Share section has been updated to include a [Data Share Dictionary](manage-risk/reporting/reporting-and-bi-integrations-snowflake-data-share/data-share-data-dictionary.md), designed to help you navigate and build your dataset.
 
@@ -79,12 +80,12 @@ The Snowflake Data Share section has been updated to include a [Data Share Dicti
 
 ## August 2024
 
-### **Snyk API**&#x20;
+### **Snyk API**
 
 * Links in the API reference docs have been updated.
 * The [API endpoints index and notes](snyk-api/api-endpoints-index-and-tips/) have been updated.
 
-### **Snyk AppRisk**&#x20;
+### **Snyk AppRisk**
 
 * The **Manage Risk > Analytics** pages have been consolidated to better reflect the two Snyk offerings:
   * [Issues Analytics](manage-risk/enterprise-analytics/issues-analytics.md) - now in Early Access for Snyk Enterprise customers.
@@ -94,13 +95,13 @@ The Snowflake Data Share section has been updated to include a [Data Share Dicti
 ### **Snyk CLI**
 
 * [`snyk auth`](snyk-cli/commands/auth.md) command help updated to reflect OAuth default.
-* &#x20; [CLI authentication](snyk-cli/authenticate-to-use-the-cli.md) instructions updated for OAuth default and improved flow.
+* [CLI authentication](snyk-cli/authenticate-to-use-the-cli.md) instructions updated for OAuth default and improved flow.
 * [`snyk config environment`](snyk-cli/commands/config-environment.md) command help has been added.
 * CLI [support for pnpm added](supported-languages-package-managers-and-frameworks/javascript/javascript-for-open-source.md#pnpm).
 
 ### Snyk IDE
 
-* &#x20;[CLI authentication](snyk-cli/authenticate-to-use-the-cli.md) instructions updated for IDE.
+* [CLI authentication](snyk-cli/authenticate-to-use-the-cli.md) instructions updated for IDE.
 * IDE authentication instructions updated: [Eclipse](scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/eclipse-plugin/authentication-for-the-eclipse-plugin.md), [Jetbrains](scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/jetbrains-plugins/authentication-for-the-jetbrains-plugins.md), [VS extension](scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/visual-studio-extension/visual-studio-extension-authentication.md), [VS Code extension](scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/visual-studio-code-extension/visual-studio-code-extension-authentication.md)
 
 ### **Snyk Integrations**
@@ -120,7 +121,7 @@ The Snowflake Data Share section has been updated to include a [Data Share Dicti
 
 * [Asset inventory filtering](manage-assets/assets-inventory-components.md#asset-tabs) describes the new, simplified view that provides an improved experience of filtering the assets.
 * The [Asset inventory layouts](manage-assets/assets-inventory-layouts.md#inventory-layouts) have been renamed to better reflect their functionality.
-* Four new SCM integrations are now available for Snyk AppRisk:&#x20;
+* Four new SCM integrations are now available for Snyk AppRisk:
   * [Atlassian Compass](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/application-context-for-scm-integrations/#atlassian-compass)
   * [Harness](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/application-context-for-scm-integrations/#harness)
   * [OpsLevel](scm-ide-and-ci-cd-integrations/snyk-scm-integrations/application-context-for-scm-integrations/#opslevel)
@@ -149,12 +150,3 @@ The Snowflake Data Share section has been updated to include a [Data Share Dicti
 * **Snyk Reports:** The [issue column dictionary](manage-risk/reporting/issue-columns-dictionary.md#issue-vulnerability-details) includes new filters and columns for Jira (JIRA ISSUES LIST, LATEST JIRA ISSUE) and EPSS (EPSS SCORE, EPSS PERCENTILE). This allows you to manage your work with Jira and to include EPSS in your prioritization steps.
 * **Snyk Security:** Snyk has improved the prioritization workflow and risk assessment by adopting [CVSS V4.0](manage-risk/prioritize-issues-for-fixing/severity-levels.md#severity-levels-and-cvss) as the default evaluation for new vulnerabilities.
 * **Fix code vulnerabilities automatically:** [DeepCode AI Fix](scan-with-snyk/snyk-code/manage-code-vulnerabilities/fix-code-vulnerabilities-automatically.md#deepcode-ai-fix-language-support) is now available in AWS Environments and JetBrains IDEs. If you use AWS multi-tenant environments, turn on the Snyk Preview [Snyk Code Fix Suggestions](scan-with-snyk/snyk-code/manage-code-vulnerabilities/fix-code-vulnerabilities-automatically.md#enable-deepcode-ai-fix) and retest with Snyk in your IDE.
-
-
-
-
-
-
-
-
-
